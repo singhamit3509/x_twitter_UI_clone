@@ -1,0 +1,49 @@
+# Ignore node_modules (for Node.js projects)
+node_modules/
+
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.env
+.venv/
+env/
+venv/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor config
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore build and dist files
+dist/
+build/
+*.egg-info/
+*.tar.gz
+*.zip
+
+# Ignore test coverage files
+coverage/
+*.cover
+*.coverage
+.cache
+
+# Ignore Git-related backups
+*.orig
+
+# Ignore environment variable files
+.env.local
+.env.*.local
+
+# Ignore system swap files
+*.swp
