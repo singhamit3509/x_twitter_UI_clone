@@ -13,7 +13,7 @@
             <div class="logo invert my-4">
                 <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
             </div>
-            <div class="sidebar flex justify-end">
+            <div class="sidebar flex-col items-center">
                 <ul class=" flex flex-col text-2xl space-y-3 px-11 font-bold">
                     <li class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:rounded-full hover:cursor-pointer "> <span class=" text-3xl material-symbols-outlined"> home </span> HOME</li>
                     <li class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:rounded-full hover:cursor-pointer"> <span class=" text-3xl material-symbols-outlined"> search </span> Explore</li>
@@ -25,15 +25,74 @@
                     <li class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:rounded-full hover:cursor-pointer"> <span class=" text-3xl material-symbols-outlined"> star_shine </span> Premium</li>
                     <li class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:rounded-full hover:cursor-pointer"> <span class=" text-3xl material-symbols-outlined"> person </span> Profile</li>
                     <li class="flex justify-start items-center gap-3 w-fit px-5 py-3 hover:bg-gray-800 hover:rounded-full hover:cursor-pointer"> <span class=" text-3xl material-symbols-outlined"> more </span> More</li>
+                    <li>
+                        <div class="button w-full text-center  ">
+                            <button class="bg-white text-black rounded-full px-30 py-3 text-xl hover:bg-gray-200 hover:cursor-pointer ">Post</button>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
-        <div class="second w-full border-[1px] border-x-white border-y-black ">B</div>
+
+        <!-- second section is start from here  -->
+          
+        <div class="second w-full border-[0.1px] border-x-gray-500 border-y-black ">
+
+            <!-- top -->
+
+            <div class="top flex p-3 relative">
+                <div class=" absolute h-1 w-17 rounded-full bg-blue-400 bottom-0 left-[18%] z-10 "></div>
+                <div class="left w-1/2 text-lg font-bold flex justify-center">For You</div>
+                <div class="right w-1/2 font-bold text-lg flex justify-center">Following</div>
+                <div class="setting mx-3"><span class="material-symbols-outlined">
+                    settings
+                    </span></div>
+            </div>
+            <div class=" h-[1px] w-full bg-gray-700 "></div>
+
+            <!-- what happning section star here  -->
+
+            <div class="whatshapp flex ">
+                <div class="img m-4 h-[50px] w-[50px] ">
+                    <img class=" rounded-full " src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png" alt="">
+                </div>
+                <div class="flex justify-center items-center">
+                    <input class=" w-full my-5 text-xl outline-none" type="text" placeholder="What is Happening?!">
+                </div>
+            </div>
+
+            <div class="text-blue-500 flex items-center gap-2 w-full mx-20 ">
+                <span class="material-symbols-outlined">
+                    globe_asia
+                </span>
+                <span>Everyone Can Reply</span>
+            </div>
+            <div class="w-[80%] h-[0.2px] bg-gray-500 my-3 mx-20"></div>
+            <div class="my-5 flex">
+                <ul class=" flex gap-3 mx-20 ">
+                    <li class=" hover:cursor-pointer "> <span class="material-symbols-outlined text-blue-500 hover:text-blue-400 "> imagesmode </span> </li>
+                    <li class=" hover:cursor-pointer  "> <span class="material-symbols-outlined text-blue-500 hover:text-blue-400"> gif_2 </span> </li>
+                    <li class=" hover:cursor-pointer  "> <span class="material-symbols-outlined text-blue-500 hover:text-blue-400"> globe_book </span> </li>
+                    <li class=" hover:cursor-pointer  "> <span class="material-symbols-outlined text-blue-500 hover:text-blue-400"> ballot </span> </li>
+                    <li class=" hover:cursor-pointer  "> <span class="material-symbols-outlined text-blue-500 hover:text-blue-400"> add_reaction </span> </li>
+                    <li class=" hover:cursor-pointer  "> <span class="material-symbols-outlined text-blue-500 hover:text-blue-400"> pending_actions </span> </li>
+                    <li class=" hover:cursor-pointer  "> <span class="material-symbols-outlined text-blue-500 hover:text-blue-400"> pin_drop </span> </li>
+                </ul>
+
+                <div class="button flex justify-center items-center mx-[50px]">
+                        <button class="bg-gray-500 text-black px-3 py-1 rounded-2xl text-black-50 font-bold hover:bg-gray-500 hover:text-amber-50 cursor-pointer">Post</button>
+                </div>
+            </div>
+            <div class="w-full h-[0.2px] bg-gray-500 my-3 "></div>
+        </div>
+
+        <!-- third sectiojn is start from here  -->
+          
         <div class="third w-full ">
             <!-- search section  -->
 
-            <div class="search m-3 ">
-                <input type="text" class=" w-2/3 rounded-full border-[1px] border-gray-700 text-white px-4 py-2 " placeholder="Search">
+            <div class="search m-3">
+                <input type="text" class=" w-2/3 rounded-full border-[1px] border-gray-700 text-white px-4 py-2 outline-none " placeholder="Search">
             </div>
 
             <!-- premium section  -->
